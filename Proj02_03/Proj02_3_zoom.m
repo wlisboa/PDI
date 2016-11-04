@@ -1,12 +1,12 @@
 % Proj02_03
 % Autor: Washington Pinto Lisboa
-% Amplia��o das dimens�es da imagem atrav�s da duplica��o de linhas e colunas
+% Ampliacão das dimensões de uma imagem através da duplicação de linhas e colunas
 
 clc;
 clear all;
 close all;
 
-% Caminho do arquivo que dever� ser modificado
+% Caminho do arquivo que deverá ser modificado de acordo com a sua necessidade
 path = '/Users/wlisboa/Documents/Documentos VBox /Mestrado/PDI/Trabalhos/Proj02-03/Fig0219(zoom512).tif';
 
 I = imread(path);     % Imagem de entrada 
@@ -52,5 +52,3 @@ imshow(I);
 figure,imshow(I_out)
 title('Imagem ampliada')
 imwrite(I_out,'Fig0219(zoom1024).tif');
-
-
